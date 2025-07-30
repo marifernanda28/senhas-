@@ -116,6 +116,21 @@ label{
     height: 20px;
     cursor: pointer;
 }
+
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+.fraca{
+    width: 25%;
+    background-color: #E71B32; 
+}
+
+}
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) {
